@@ -1,0 +1,38 @@
+body {
+    background-color: #f0ebe1;
+    font-family: 'Courier New', Courier, monospace; /* Gaya retro khas brutalism */
+}
+
+/* Khas Neo-Brutalism: Border hitam tebal, bayangan kaku tanpa blur */
+.brutal-card {
+    background-color: #fff;
+    border: 4px solid #000000;
+    box-shadow: 8px 8px 0px #000000;
+    border-radius: 0px; /* Sudut tajam */
+    transition: all 0.2s ease;
+}
+
+.brutal-btn {
+    background-color: #ffde47; /* Warna kuning vibrant */
+    color: #000;
+    font-weight: bold;
+    border: 3px solid #000;
+    box-shadow: 4px 4px 0px #000;
+    border-radius: 0px;
+}
+
+.brutal-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px #ffde47;
+}
+
+.brutal-input {
+    border: 3px solid #000;
+    border-radius: 0px;
+}
+.brutal-input:focus {
+    border-color: #000;
+    box-shadow: 4px 4px 0px #000;
+}
